@@ -20,6 +20,13 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    git diff allows to compare the working directory with the staging area 
+    files, if there's any difference it means that the files in the WD have not
+    been staged
+
+    git diff --staged allows to compare the staging area with the repository 
+    files, if there's any difference it means that there's a new commit pending
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
