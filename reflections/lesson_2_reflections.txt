@@ -48,5 +48,17 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    The changes of the two branches are combined in one branch, the commits are
+    reacheable from the new merged branch and sorted according to its date.
+    
+    The branch specified in the git merge <branch_name> command will be merged
+    into the checkout branch. It takes the original commit where the two 
+    branches were split (original files) and merge the branches comparing with 
+    the these files to determine if the lines were added or deleted and merging
+    them in one
+
+    Representing it in a diagram help to look at the commits merged and the 
+    result of the merged (New commit)
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
