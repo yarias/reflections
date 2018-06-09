@@ -32,12 +32,18 @@ organized? How would branches help?
 
     When new experimental features are added, creating documentation to other
     lenguages, basically when added experimental things that need to be checked
-    before adding to the real project.
+    before adding to the real project. The master branch should always work 
+    while the branches are work in progress.
 
     Branches help by creating a snapshot of the repository where new 
     experimental changes can be done without affecting the master branch
 
 How do the diagrams help you visualize the branch structure?
+
+    git diff --graph --oneline <branch_name> <branch_name> draws the branch
+    structure in a more readable way, look at when the branch was created, which
+    are their parents commits, the commit id is displayed in a shorter way along
+    with its description.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
