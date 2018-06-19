@@ -9,3 +9,14 @@ up-to-date with your remote repository?
 
    Beacause we can choose when and what to pull from the remote repo. If it is done automatically 
    we can pull unnecessary commits to our local repo. 
+   
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+   Clone: it allows to clone a GitHub repository in your local machine or even clone a local repository 
+   into anonther local directory. it is used if you want to work on your local machine 
+   
+   Branches: It allows to get a branch from the master branch to work on the code, add new features, test the new
+   implementations without affecting the working code (master)
+   
+   Fork: it allows to clone a GitHub repository directly in you GitHub account using the GitHub repositories 
+   skipping the step to clone the repo in your local machine and then push it into your GitHub account. 
